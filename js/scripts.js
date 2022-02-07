@@ -22,7 +22,7 @@
 		$(this).html(event.strftime(format));
 	})
 	.on('finish.countdown', function(event) {
-	$(this).html('This offer has expired!')
+	$(this).html('The Project Is Currently Being Published And Should Be Up In The Next Few Minutes')
 		.parent().addClass('disabled');
     });
 
